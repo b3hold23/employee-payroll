@@ -16,11 +16,8 @@ const collectEmployees = function () {
       lastName: lastName,
       salary: salary
     }
-
-    //console.log("Emp object: ", emp);
   
     employee.push(emp);
-    //console.log("Employee Array: ", employee);
     
     moreEmp = confirm("Add another employee?")
   }
@@ -48,7 +45,7 @@ const getRandomEmployee = function (employeesArray) {
   const index = Math.floor(Math.random() * employeesArray.length);
   console.log(index);
 
-  console.log(`Congratulations to , ${employeesArray[index].firstName} ${employeesArray[index].lastName}} our random drawing winner!`)
+  console.log(`Congratulations to , ${employeesArray[index].firstName} ${employeesArray[index].lastName} our random drawing winner!`)
 
 };
 
